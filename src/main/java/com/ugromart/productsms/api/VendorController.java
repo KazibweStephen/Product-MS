@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/productms")
+@RequestMapping("/productsms")
 public class VendorController {
     private static final Logger log = LoggerFactory.getLogger(VendorController.class);
     @Autowired
